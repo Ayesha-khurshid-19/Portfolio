@@ -49,16 +49,14 @@ padding: 0 10px;
  border-color:white ;
  background-color:rgb(14, 13, 13);
 }
- #homee{
+#homee{ 
+    width: 100%;
   background-image: url(image3.jpg) ;
  background-repeat: no-repeat; 
  /* background-attachment: fixed;   */
  background-size: cover; 
  
 } 
-.container{
-    width: 100%;
-}
 .fieldset{
   width: 1000px;
   height: 500px;
@@ -70,6 +68,18 @@ padding: 0 10px;
  background-repeat: no-repeat; 
  /* background-attachment: fixed;  */
  background-size: cover;
+}
+
+.home{
+ float: left;
+ margin-left: 20px;
+ color: white;
+ padding-top: 150px;
+width: 45%;
+font-family: 'Bricolage Grotesque', sans-serif;
+} 
+.hi{
+ text-shadow:2px 2px 2px  blue;
 }
 .padding{
   padding-top: 20px;
@@ -90,17 +100,7 @@ padding: 0 10px;
   padding-top: 13px;
   padding-bottom: 8px;
 }
- .home{
- float: left;
- margin-left: 20px;
- color: white;
- padding-top: 150px;
-width: 49%;
-font-family: 'Bricolage Grotesque', sans-serif;
-} 
-.hi{
- text-shadow:2px 2px 2px  blue;
-}
+ 
 .purple{
  color: rgb(35, 64, 160);
  font-weight: bold;
@@ -123,36 +123,27 @@ font-family: 'Bricolage Grotesque', sans-serif;
 .blink{
  transition: 10sec;
 }
-.about{
-  border: 3px blue solid  ;
-  padding-left: 15px;
-  padding-right: 12px;
-}
-.aboutme{
-  margin-bottom: 10px;
-  color: white;
-  
-} 
 #aboutone{
-  /* background-color: black; */
   background-image:url(images.jpg) ;
   background-repeat: no-repeat; 
  /* background-attachment: fixed;  */
  background-size: cover;
  border: 3px blue solid ;
+ padding-left: 15px;
+  padding-right: 12px;
 }
+.aboutme{
+  margin-bottom: 10px;
+  color: white;
+}
+ .about{
+  border: 3px blue solid  ;
+} 
 .divider{
   width: 178px;
   height: 4px;
   background-color: blue;
   border-radius: 3px;
-}
-.about .divider ~ p{
-  font-size: 15px;
-  letter-spacing: 0.5px;
-  font-weight: 400;
-  margin-top: 15px;
-   color: white; 
 }
 .dividertwo{
   width: 375px;
@@ -160,8 +151,23 @@ font-family: 'Bricolage Grotesque', sans-serif;
   background-color: blue;
   border-radius: 3px;
 }
+.dividerthree{
+    width: 312px;
+    height: 4px;
+    background-color: blue;
+    border-radius: 3px;
+  }
+.about .divider ~ p{
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  margin-top: 15px;
+   color: white; 
+}
+
 .about .icon-list-col{
   display: flex;
+  justify-content: center;
   margin-top: 0px;
   gap: 50px;
   color: white;
@@ -175,7 +181,6 @@ margin: 15px 0;
   border: 3px blue solid  ;
   padding-left: 15px;
   padding-right: 12px;
-  /* background-color: black; */
   margin: auto;
   background-image:url(images.jpg) ;
   background-repeat: no-repeat; 
@@ -190,12 +195,12 @@ margin: 15px 0;
  color: white;
  align-items: normal;
 }
-.skillheadings{
+ /* .skillheadings{
   font-family: 'Merriweather', serif; 
  color: white;
  align-items: normal;
  text-align: center;
-}
+}  */
 .skillpara{
   font-size: 20px;
   color: white;
@@ -217,12 +222,11 @@ margin: 15px 0;
  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
 }
 
- .icon-box{
-  color: white;
-} 
  .icon{
-  color: rgb(228, 11, 11);
-}
+  color: white;
+  text-decoration: underline blue solid;
+} 
+
 #carouselExample{
   border: 3px blue solid  ;
   padding-left: 15px;
@@ -286,15 +290,6 @@ input:hover {
   border-color: blue;
 }
 /* Add a background color and some padding around the form */
-.contacttwo {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-  width: 55%;
-  height: 30%;
-  margin-left: 25%;
-
-}
 .container2{
   padding-left: 12%;
   margin: 6%;
@@ -338,7 +333,8 @@ input:hover {
 form{
   height: 50%;
   width: 45%;
-}
+  margin: 110px;
+  }
 .contactform{
   margin: 0%;
   padding: 0%;
@@ -353,9 +349,7 @@ textarea:hover{
 }
 #contacts{
   border: 2px blue solid  ;
-  background-color: rgb(2, 2, 2);
   color: white;
-
   padding-left: 15px;
   padding-right: 12px;
   /* background-color: black; */
@@ -363,41 +357,12 @@ textarea:hover{
   background-image:url(images.jpg) ;
   background-repeat: no-repeat; 
  background-size: cover;
-  
 }
 .text{
   font-size: 22px;
  color: white;
 }
-/* .home-img .glowing-circle{
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background: yellowgreen;
-  border-radius: 50%;
-  display: flex; 
- justify-content: center; 
- align-items: center; 
-
-} */
-/* .home-img .glowing-circle::after{
- content: '';
- position: absolute;
- width: 380px;
- height: 380px;
- background: black;
- border-radius: 50%; 
-} */
-
-/* .glowing-circle{
-  position: relative;
-  width: 100px;
-  height: 100px;
-  background: red;
-  z-index: 1;
+span{
+    margin: 3px;
+    line-height: 50px;
 }
-.img-circle{
-  max-width: 350px;
-  object-fit: cover;
-
-} */
