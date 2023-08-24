@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&family=Merriweather:wght@700&display=swap');
+.navbar-brand{
+ font-size: 25px;
+ font-weight: bolder;
+ color: white;
+ padding-left: 10px;
+ padding-right: 10px;
+ border: 3px;
+  border-style: solid; 
+ border-color:blue ;
+ border-radius: 50px;
+}
+.navbar-brand:hover{
+  color :blue;
+}
+.nav-link{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: rgb(186, 189, 189);
+ position: relative;
+ text-decoration: none;
+ letter-spacing: 0.5px;
+padding: 0 10px;
+}
+ .nav-link:hover{
+ text-decoration: underline solid blue;
+ color: blue;
+  width: 100%;
+ font-size: 1.1rem;
+} 
+.container{
+  max-width: 100%;
+  
+}
+.navbar{
+ overflow: hidden; 
+  position: fixed; 
+  min-width: 98%;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-toggler{
+  color: blue;
+  width: 100%;
+}
+ body{
+  background-image: url(./images/blue.jpg) ;
+ background-repeat: no-repeat; 
+ /* background-attachment: fixed;   */
+ background-size: cover; 
+ 
+} 
+.navbar{
+  border: 3px;
+  border-style: solid; 
+ border-color:white ;
+ background-color:rgb(14, 13, 13);
+}
+.fieldset{
+  width: 1100px;
+  height: 500px;
+  background-color: rgb(34, 30, 30);
+  border: 3px;
+  border-color: white;
+  border-style: solid; 
+  background-image: url(./images/fieldsettwo.jpg) ;
+ background-repeat: no-repeat; 
+ /* background-attachment: fixed;  */
+ background-size: cover;
+}
+.padding{
+  padding-top: 20px;
+  padding-bottom: 20px;
+ background-color: black;
+}
+.padfield{
+  padding-top: 25px;
+  padding-bottom: 25px;
+ 
+}
+.paddingtwo{
+  padding-top: 6px;
+  padding-bottom: 1px;
+  
+}
+.paddingthree{
+  padding-top: 13px;
+  padding-bottom: 8px;
+}
+ .home{
+ float: left;
+ margin-left: 20px;
+ color: white;
+ padding-top: 150px;
+width: 49%;
+font-family: 'Bricolage Grotesque', sans-serif;
+} 
+.hi{
+ text-shadow:2px 2px 2px  blue;
+}
+.purple{
+ color: rgb(35, 64, 160);
+ font-weight: bold;
+}
+.box{
+  float: right;
+ margin-left: 20px;
+ padding-top: 50px;
+ padding-right: 50px;
+}
+.image{
+  width: 370px;
+  height: 370px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: solid blue;
+  box-shadow: 0.2px 0.2px 33px   blue;
+  border-width: 6px;
+}
+.blink{
+ transition: 10sec;
+}
+.about{
+  border: 3px blue solid  ;
+  padding-left: 15px;
+  padding-right: 12px;
+}
+.aboutme{
+  margin-bottom: 10px;
+  color: white;
+  
+} 
+#aboutone{
+  /* background-color: black; */
+  background-image:url(./images/leadspace.jpg) ;
+  background-repeat: no-repeat; 
+ /* background-attachment: fixed;  */
+ background-size: cover;
+ border: 3px blue solid ;
+}
+.divider{
+  width: 178px;
+  height: 4px;
+  background-color: blue;
+  border-radius: 3px;
+}
+.about .divider ~ p{
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  margin-top: 15px;
+   color: white; 
+}
+.dividertwo{
+  width: 375px;
+  height: 4px;
+  background-color: blue;
+  border-radius: 3px;
+}
+.about .icon-list-col{
+  display: flex;
+  margin-top: 0px;
+  gap: 50px;
+  color: white;
+}
+.about .icon-list-col .icon-list ul li{
+list-style: none;
+margin: 15px 0;
+}
+
+.skill{
+  border: 3px blue solid  ;
+  padding-left: 15px;
+  padding-right: 12px;
+  /* background-color: black; */
+  margin: auto;
+  background-image:url(./images/leadspace.jpg) ;
+  background-repeat: no-repeat; 
+ background-size: cover;
+  /* background-image: url();
+  background-repeat: no-repeat; 
+ background-attachment: fixed; 
+ background-size: cover; */
+}
+.skillheading{
+  font-family: 'Merriweather', serif; 
+ color: white;
+ align-items: normal;
+}
+.skillheadings{
+  font-family: 'Merriweather', serif; 
+ color: white;
+ align-items: normal;
+ text-align: center;
+}
+.skillpara{
+  font-size: 20px;
+  color: white;
+}
+.skillparatwo{
+  font-size: 20px;
+  color: white;
+}
+.lines{
+  margin: 20px;
+  width: 85%;
+}
+.write{
+  text-underline-offset: 0.5em;
+  line-height: 2px;
+  color: white;
+ text-decoration:  2px underline blue;
+ font-weight: bold;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+
+ .icon-box{
+  color: white;
+} 
+ .icon{
+  color: rgb(228, 11, 11);
+}
+#carouselExample{
+  border: 3px blue solid  ;
+  padding-left: 15px;
+  padding-right: 12px;
+  background-color: black;
+  margin: auto;
+}
+#imgone{
+  padding-left: 40%;
+  padding-right: 40%;
+}
+#imgtwo{
+  padding-left: 13%;
+  padding-right: 15%;
+}
+#imgthree{
+  padding-left: 25%;
+  padding-right: 25%;
+}
+#imgfour{
+  padding-left: 0%;
+  padding-right: 25%;
+}
+.d-block{
+height: 25%;
+/* padding-left: 10%;
+padding-right: 10%; */
+} 
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: rgb(58, 58, 156);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: blue;
+}
+input:hover {
+  border-color: blue;
+}
+#country:hover{
+  border-color: blue;
+}
+#subject:hover{
+  border-color: blue;
+}
+/* Add a background color and some padding around the form */
+.contacttwo {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 55%;
+  height: 30%;
+  margin-left: 25%;
+
+}
+.container2{
+  padding-left: 12%;
+  margin: 6%;
+   
+  }
+.contactinfo{
+  display: flex;
+   justify-content: center;
+  align-items: center; 
+  /* flex-direction: column; */
+ line-height: 4px;
+}
+.container2 .contactinfo{
+  width: 100%;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+.container2 .contactinfo .box{
+  position: relative;
+  padding: 20px ;
+  /* display: flex; */
+}
+.contactform  {
+ width: 80%;
+ border: none;
+
+}
+.fa{
+ font-size: 25px;
+ color: white;
+}
+.fa-brands{
+  font-size: 25px;
+  color: white;
+}
+.fa-sharp{
+  font-size: 25px;
+  color: white;
+}
+form{
+  height: 50%;
+  width: 45%;
+}
+.contactform{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'poppins',sans-serif;
+  box-sizing: border-box;
+}
+input:hover{
+  border: 3px solid blue;
+}
+textarea:hover{
+  border: 3px solid blue;
+}
+#contacts{
+  border: 2px blue solid  ;
+  background-color: rgb(2, 2, 2);
+  color: white;
+
+  padding-left: 15px;
+  padding-right: 12px;
+  /* background-color: black; */
+  margin: auto;
+  background-image:url(./images/leadspace.jpg) ;
+  background-repeat: no-repeat; 
+ background-size: cover;
+  
+}
+.text{
+  font-size: 22px;
+ color: white;
+}
+/* .home-img .glowing-circle{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: yellowgreen;
+  border-radius: 50%;
+  display: flex; 
+ justify-content: center; 
+ align-items: center; 
+
+} */
+/* .home-img .glowing-circle::after{
+ content: '';
+ position: absolute;
+ width: 380px;
+ height: 380px;
+ background: black;
+ border-radius: 50%; 
+} */
+
+/* .glowing-circle{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: red;
+  z-index: 1;
+}
+.img-circle{
+  max-width: 350px;
+  object-fit: cover;
+
+} */
