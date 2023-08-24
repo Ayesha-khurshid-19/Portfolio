@@ -44,7 +44,7 @@ padding: 0 10px;
   width: 100%;
 }
  #homee{
-  background-image: url(./images/blue.jpg) ;
+  background-image: url(image3.jpg) ;
  background-repeat: no-repeat; 
  /* background-attachment: fixed;   */
  background-size: cover; 
@@ -63,7 +63,7 @@ padding: 0 10px;
   border: 3px;
   border-color: white;
   border-style: solid; 
-  background-image: url(./images/fieldsettwo.jpg) ;
+  background-image: url(fieldsettwo.jpg) ;
  background-repeat: no-repeat; 
  /* background-attachment: fixed;  */
  background-size: cover;
@@ -132,7 +132,7 @@ font-family: 'Bricolage Grotesque', sans-serif;
 } 
 #aboutone{
   /* background-color: black; */
-  background-image:url(./images/leadspace.jpg) ;
+  background-image:url(leadspace.jpg) ;
   background-repeat: no-repeat; 
  /* background-attachment: fixed;  */
  background-size: cover;
@@ -174,7 +174,7 @@ margin: 15px 0;
   padding-right: 12px;
   /* background-color: black; */
   margin: auto;
-  background-image:url(./images/leadspace.jpg) ;
+  background-image:url(leadspace.jpg) ;
   background-repeat: no-repeat; 
  background-size: cover;
   /* background-image: url();
@@ -356,7 +356,7 @@ textarea:hover{
   padding-right: 12px;
   /* background-color: black; */
   margin: auto;
-  background-image:url(./images/leadspace.jpg) ;
+  background-image:url(leadspace.jpg) ;
   background-repeat: no-repeat; 
  background-size: cover;
   
