@@ -368,9 +368,9 @@ span{
 
 }
 @media (max-width:480px){
-    .container{
+  .container{
   max-width: 100%;
-    }
+  }
 
  .fieldset{
     width: 400px;
@@ -519,3 +519,154 @@ span{
     width: 700px;
     }
 }
+/* @media (min-width:992px) and (min-width:1199px){
+    .container{
+    max-width: 80%;
+    }
+      
+    .fieldset{
+    width: 15%;
+    height: 15%;
+    border: 3px;
+    border-color: white;
+    border-style: solid; 
+    box-shadow: 2px 2px 13px white;
+    background-image: url(fieldsettwo.jpg) ;
+    background-repeat: no-repeat; 
+    /* background-attachment: fixed;  */
+    /* background-size: cover;
+    }
+    .home{
+    float: left;
+    margin-left: 2px;
+    color: white;
+    padding-top: 50px;
+    width: 45%;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    } 
+    .hi{
+    text-shadow:2px 2px 2px  blue;
+    font-size: 16px;
+    }
+    h3{
+    font-size: 14px;
+    }
+    .box{
+    float: right;
+    margin-left: 12px;
+    padding-top: 45px;
+    padding-right: 25px;
+    }
+    .image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid blue;
+    box-shadow: 0.2px 0.2px 33px   blue;
+    border-width: 6px;
+    }
+    .blink{
+    transition: 10sec;
+    }
+    .navbar{
+    overflow: hidden; 
+    position: fixed;        
+    min-width: 84%;      
+    justify-content: center;       
+    align-items: center;       
+    }      
+    #contacts{      
+    border: 2px blue solid  ;      
+    color: white;      
+    padding-left: 5px;
+    padding-right: 0px;     
+    margin: auto;     
+    background-image:url(images.jpg) ;     
+    background-repeat: no-repeat; 
+    background-size: cover;
+    }
+    input[type=text], select, textarea { */
+    /* width: 70%; 
+          padding: 5px; 
+          border: 1px solid #ccc; 
+          border-radius: 4px; 
+          box-sizing: border-box;
+          margin-top: 3px; 
+          margin-bottom: 6px; 
+          resize: vertical 
+          }
+          .contactinfo{
+          display: flex;
+          justify-content: center;
+          align-items: center;  */
+          /* flex-direction: column; */
+          /* line-height: 4px;
+          }
+          .container2 .contactinfo{
+          width: 100%; */
+          /* display: flex; */
+          /* flex-direction: column; */
+          }
+    /* form{
+    height: 50%;
+    width: 80%;
+    margin: 100px;
+    }
+    .contactform  {
+    width: 100%;
+    border: none;
+    }
+    .fa{
+    font-size: 12px;
+    color: white;
+    }
+    .fa-brands{
+    font-size: 12px;
+    color: white;
+    }
+    .fa-sharp{
+    font-size: 12px;
+    color: white;
+    }
+    .divider{
+    width: 125px;
+    height: 4px;
+    background-color: blue;
+    border-radius: 3px;
+    }
+   .dividertwo{
+    width: 280px;
+    height: 4px;
+    background-color: blue;
+    border-radius: 3px;
+    }
+    .dividerthree{
+    width: 158px;
+    height: 4px;
+    background-color: blue;
+    border-radius: 3px;
+    }
+    #imgone{
+    height: 90%;
+    width: 700px;
+    padding-left: 40%;
+     padding-right: 40%;
+    }
+    #imgtwo{
+    height: 80%;
+    width: 500px;
+    padding-left: 13%;
+    padding-right: 25%;
+    }
+    #imgthree{
+    height: 80%;
+    width: 500px;
+    padding-left: 20%;
+    padding-right: 25%;
+    }
+    #imgfour{
+    height: 80%;
+    width: 700px;
+    }
+}  */
